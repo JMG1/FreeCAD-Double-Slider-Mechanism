@@ -16,5 +16,5 @@ python console.
 To stop animation, type: timer.stop()
 To reset animation, type: reset()
 To start animation again, type: timer.start( 10 )
-10 is the time between each animation step, increase to move slowlier, decrease to move faster.
+10 is the time between each animation step, increase to move more slowly, decrease to move faster.
 
