@@ -1,2 +1,20 @@
-# FreeCAD-Double-Slider-Mechanism
+FreeCAD-Double-Slider-Mechanism
 Animation of a double slider mechanism with FreeCAD
+
+(c) 2015 Javier Martínez García
+
+The files "DoubleSliderAnimation.py" and "DoubleSliderMechanism.fcstd" are under GPL V2.0 License. Refer 
+to "LICENSE" file for further info.
+
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#+++++++++++++++++++++ RUN THE ANIMATION ++++++++++++++++++++++++++++++++++++
+#++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Open DoubleSliderMechanism.fcstd and then copy-paste the content of "DoubleSliderAnimation.py" at FreeCADs
+python console.
+
+To stop animation, type: timer.stop()
+To reset animation, type: reset()
+To start animation again, type: timer.start( 10 )
+10 is the time between each animation step, increase to move slowlier, decrease to move faster.
+
