@@ -30,8 +30,7 @@ def reset():
   arm.Placement = r_arm_pl
 
 
-# "i" is the variable that represents the animation steps.
-# At this mechanism, "i" represents the angle of the rod in degrees
+# In this mechanism, "i" represents the angle of the rod in degrees
 i = 0
 
 # update function calculates object position as f(i) and increases i
